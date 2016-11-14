@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #55CACE;
+  font-family: 'Lobster', cursive;
+}
+/** HEADER **/
+.navbar {
+  background-color: #86FA4C;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 5px;
+}
+
+.navbar-brand h1 { /* company name */
+  color: #000000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+#collapsable-nav {
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+  background-color: #929292;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  background-color: #929292;
+}
+.container>.navbar-header {
+  height: 55px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #55CACE;
+}
+
+hr {
+    border-top: 1px solid #000000;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #000000;
+}
+
+#nav-list a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#nav-list a:hover {
+  color: #55CACE;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+
+
+#box-sushi, #box-chicken, #box-beef {
+  background-color: #929292; 
+  text-align: center;
+  margin: 0, auto, 0;
+  padding: 20px; 
+  margin-bottom: 20px; 
+}
+
+
+h3 {
+  margin-top: 5px;
+  color: #86FA4C;
+}
+a:focus, a:hover {
+  color: #55CACE;
+}
+
+a {
+  color: #86FA4C;
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  #box-sushi {
+    col
+  } 
+} 
+
